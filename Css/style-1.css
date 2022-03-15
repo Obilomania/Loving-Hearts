@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  border-bottom: 5px double #ff6f98;
+  padding: 1rem 8rem;
+  height: 20vh;
+
+  overflow: hidden;
+}
+.logo {
+  width: 450px;
+}
+.a-link-active{
+  text-decoration: none;
+  color: rgb(122, 122, 122);
+  border-bottom: 1px solid rgb(122, 122, 122);
+}
+
+.div-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: -150px;
+}
+
+.div-nav img {
+  width: 30px;
+  text-decoration: none;
+}
+.div-nav .a-link {
+  text-decoration: none;
+  color: rgb(122, 122, 122);
+}
+.div-nav .a-link:hover {
+  border-bottom: 1px solid rgb(122, 122, 122);
+  color: rgb(122, 122, 122);
+}
+
+.div-nav .phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-top: 20px;
+}
+.div-nav h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: #ff6f98;
+}
+.div-nav .fa-phone {
+  font-size: 22px;
+  color: rgb(122, 122, 122);
+}
+.div-nav p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #ff6f98;
+  margin-top: -15px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120%;
+  list-style: none;
+  margin-left: 20px;
+  /* margin-top: 30px; */
+}
+
+/* ----------------LANDING------------------------- */
+.landing {
+  position: absolute;
+  right: 23%;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 20rem;
+}
+.landing h5 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+.landing h1 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: #add55f;
+  text-shadow: white;
+}
+.landing h1 span {
+  font-family: "montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  color: #add55f;
+}
+.landing h6 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+  width: 29rem;
+}
+.landing button a {
+  text-decoration: none;
+  color: white;
+}
+.landing button {
+  background-color: #add55f;
+  border-radius: 30px;
+  border: none;
+  margin: 20px 50px;
+  width: 300px;
+  height: 50px;
+}
+
+/* ------------------------CARDS---------------------------- */
+.cards {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: -100px auto;
+}
+.cards svg {
+  width: 1000px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 348px;
+  min-height: 370px;
+  text-align: center;
+  padding: 51px 10px 10px;
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 20%);
+  border-radius: 15px;
+}
+.card a:hover {
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+
+.card-1 h3 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 800;
+  font-size: 29px;
+  color: #ff6f98;
+}
+.card-1 p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.card-1 a {
+  text-decoration: none;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(122, 122, 122);
+  /* margin-top: -20px; */
+}
+
+.card-2 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  background-color: #ff6f98;
+}
+.card-2 h3 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 800;
+  font-size: 29px;
+  color: white;
+}
+.card-2 p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+}
+.card-2 a {
+  text-decoration: none;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  /* margin-top: 30px; */
+}
+
+.card-3 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+.card-3 h3 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 800;
+  font-size: 29px;
+  color: #ff6f98;
+  margin-top: -20px;
+}
+.card-3 p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+}
+.card-3 a {
+  text-decoration: none;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(122, 122, 122);
+}
+
+/* ----------------------WELCOME-------------------------------- */
+.welcome {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vw;
+  padding: 20px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.welcome img {
+  width: 439px;
+  max-width: 439px;
+  margin-left: 10%;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 2px rgb(109, 109, 109);
+}
+.welcome h5 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 200;
+  font-size: 26px;
+}
+.welcome h1 {
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 50px;
+  color: #ff6f98;
+}
+.welcome p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+}
+.welcome span {
+  color: #ff6f98;
+  font-weight: 700;
+}
+
+/* -------------------------BTM---------------------------- */
+.btm-btm {
+  background-color: #add55f;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 150px;
+  height: 792px;
+}
+.btm-write {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.btm-write h5 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 200;
+  font-size: 26px;
+}
+.btm-write h1 {
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 50px;
+}
+.btm-write p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.btm-write span {
+  font-weight: bold;
+}
+.btm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.btm-cntn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 240px;
+  height: 297px;
+  padding: 30px;
+  border-radius: 20px;
+  background: #ff6f98;
+  overflow: hidden;
+  margin-bottom: 200px;
+}
+
+.btm-cntn img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.btm-cntn h3 {
+  text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-weight: 800;
+  font-size: 19px;
+  color: white;
+  width: fit-content;
+}
+
+/* -----------------------BTM2---------------------------------- */
+.btm2-btm2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff6f98;
+  width: 100%;
+  overflow: hidden;
+  height: 571px;
+}
+.btm2-content {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 80vw; */
+  padding: 20px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.btm2-content img {
+  width: 439px;
+  max-width: 439px;
+  margin-left: 10%;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 2px rgb(109, 109, 109);
+}
+.btm2-cntn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.btm2-cntn h3 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 200;
+  font-size: 26px;
+}
+.btm2-cntn h1 {
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 50px;
+  text-align: end;
+}
+.btm2-cntn p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: end;
+}
+.btm2-cntn span {
+  font-weight: bold;
+}
+.btm2-bottons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.btm2-bottons a {
+  text-decoration: none;
+  color: #000;
+}
+.btm2-cntn button {
+  background-color: #add55f;
+  border-radius: 30px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* ----------LANDING PAGE CONTACT INFO----------------- */
+.lndg-cntkt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+.lndg-cntkt p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+}
+.lndg-cntkt h4 {
+  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+.lndg-cntkt h1 {
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 50px;
+  text-align: center;
+  color: #ff6f98;
+}
+.lndg-cntkt .fa-phone,
+.fa-location-dot {
+  color: #ff6f98;
+}
+
+/* -----------------------FOOTER--------------------------- */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6f98;
+  width: 100%;
+  overflow: hidden;
+  height: 150px;
+  margin: 0 auto;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60vw;
+  max-width: 1080px;
+  color: white;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul li a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+footer p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}

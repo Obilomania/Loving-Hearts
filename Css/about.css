@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  border-bottom: 5px double #ff6f98;
+  padding: 1rem 8rem;
+  height: 20vh;
+
+  overflow: hidden;
+}
+.logo {
+  width: 450px;
+}
+.a-link-active{
+  text-decoration: none;
+  color: rgb(122, 122, 122);
+  border-bottom: 1px solid rgb(122, 122, 122);
+}
+
+.div-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: -150px;
+}
+
+.div-nav img {
+  width: 30px;
+  text-decoration: none;
+}
+.div-nav .a-link {
+  text-decoration: none;
+  color: rgb(122, 122, 122);
+}
+.div-nav .a-link:hover {
+  border-bottom: 1px solid rgb(122, 122, 122);
+  color: rgb(122, 122, 122);
+}
+
+.div-nav .phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-top: 20px;
+}
+.div-nav h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: #ff6f98;
+}
+.div-nav .fa-phone {
+  font-size: 22px;
+  color: rgb(122, 122, 122);
+}
+.div-nav p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #ff6f98;
+  margin-top: -15px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120%;
+  list-style: none;
+  margin-left: 20px;
+  /* margin-top: 30px; */
+}
+
+/* -------ABOUT LANDING PAGE---------------------- */
+.abt-landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.land-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #add55f;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.land-img h3 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px auto;
+  color: white;
+  letter-spacing: 1.5px;
+}
+.abt-landing p {
+  font-family: "Questrial", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  margin: 30px 0px;
+}
+.abt-landing span {
+  color: #add55f;
+  font-weight: bold;
+}
+.abt-landing .dot {
+  border: 1px dotted black;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* ----------------COMMITED------------------------ */
+.commited {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0px 0 30px 0px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 30px auto;
+}
+.commited h1 {
+  font-family: "Questrial", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  color: #7b9742;
+}
+.cmtd-cntnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cmtd-cntnt p {
+  margin-right: 50px;
+  font-family: "Questrial", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+}
+.cmtd-cntnt span {
+  color: #ff6f98;
+  font-weight: bold;
+}
+
+/* -----------VISION & MISSION---------------- */
+.vis-mis {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 80px auto;
+  background-color: #fdfded;
+  padding: 10px;
+}
+.vis-mis .line {
+  background-color: rgb(145, 143, 143);
+  height: 250px;
+  width: 2px;
+}
+.vis-cntnt {
+  width: 40%;
+}
+.vis-head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.vis-head img {
+  margin-right: 15px;
+}
+.vis-cntnt p span {
+  color: #ff6f98;
+  font-weight: bold;
+}
+.vis-cntnt h4 {
+  width: 20%;
+  font-family: "Questrial", sans-serif;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.vis-cntnt h4 span {
+  font-weight: bold;
+}
+.vis-cntnt p {
+  font-family: "Questrial", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+/* ----------------------GET IN TOUCH------------------ */
+
+.get-in-touch {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 80px auto;
+  padding: 10px;
+}
+.get-in-touch h4 {
+  width: 20%;
+  font-family: "Questrial", sans-serif;
+  line-height: 20px;
+  letter-spacing: px;
+  font-weight: bold;
+}
+.get-in-touch p {
+  font-family: "Questrial", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+}
+.get-in-touch a {
+    color: #add55f;
+}
+
+/* ----------LANDING PAGE CONTACT INFO----------------- */
+.lndg-cntkt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+.lndg-cntkt p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+}
+.lndg-cntkt h4 {
+  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+.lndg-cntkt h1 {
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 50px;
+  text-align: center;
+  color: #ff6f98;
+}
+.lndg-cntkt .fa-phone,
+.fa-location-dot {
+  color: #ff6f98;
+}
+
+/* -----------------------FOOTER--------------------------- */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6f98;
+  width: 100%;
+  overflow: hidden;
+  height: 150px;
+  margin: 0 auto;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60vw;
+  max-width: 1080px;
+  color: white;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul li a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+footer p {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
